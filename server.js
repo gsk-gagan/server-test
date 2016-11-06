@@ -11,4 +11,6 @@ app.get('/about', function(req, res) {
 	res.send('This was implemented by GSK');
 });
 
-app.listen(3000);
+app.listen(3000, function () {
+	console.log('Server started');
+});
